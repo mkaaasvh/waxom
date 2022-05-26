@@ -1,0 +1,43 @@
+.twitter {
+    margin-top: 20px;
+    margin-right: 23px;
+}
+
+.twitter__container {
+    width: 272px;
+}
+
+.twitter__title {
+    font-family: "Raleway";
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+.twitter__post__content {
+    color: $darkGray;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.twitter__post__link {
+    color: #00bff3;
+
+    &--visited {
+        color: #959595;
+    }
+}
+
+.twitter__post__date {
+    color: #363636;
+    font-size: 12px;
+    position: relative;
+    margin-bottom: 36px;
+}
+
+.twitter__post__separator {
+    content: url("../../img/decor/line1.png");
+    position: absolute;
+    margin-top: -17px;
+}

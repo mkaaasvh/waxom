@@ -1,0 +1,25 @@
+.menu {
+    padding-left: 298px;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.menu__item {
+    margin-top: -54px;
+    margin-right: 27px;
+
+    &:hover {
+        color: $lightBeige;
+    }
+
+    &--active {
+        color: $lightBeige;
+    }
+}

@@ -1,0 +1,44 @@
+$containerWidth: 1170px;
+$baseFontSize: 16px;
+
+//colors
+$lightBeige: #c7b299;
+$darkBeige:#998675;
+$darkGray:#555555;
+$lightGray:#8c8c8c;
+$brown: #362f2d;
+$darkBrown:#736357;
+$whiteGray: #d1d1d1;
+
+
+//normalize
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+@import "layout";
+
+//components
+@import "components/hero.scss";
+@import "components/menu.scss";
+@import "components/header.scss";
+@import "components/btn.scss";
+@import "components/dots-menu.scss";
+@import "components/services.scss";
+@import "components/service.scss";
+@import "components/introduction.scss";
+@import "components/separator.scss";
+@import "components/products.scss";
+@import "components/headline.scss";
+@import "components/video.scss";
+@import "components/benefits.scss";
+@import "components/total.scss";
+@import "components/news__posts.scss";
+@import "components/partners.scss";
+@import "components/main__info.scss";
+@import "components/waxom__info.scss";
+@import "components/posts.scss";
+@import "components/twitter.scss";
+@import "components/widget.scss";
+@import "components/footer.scss";
+@import "components/copyright.scss";

@@ -1,0 +1,57 @@
+.btn {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: $darkBeige;
+    border-bottom: 4px solid $darkBrown;
+    border-radius: 4px;
+    padding: 15px 34px;
+}
+
+.button__wrapper {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-top: -55px;
+}
+
+.btn__products__wrapper {
+    text-align: center;
+}
+
+.btn__products {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: $darkBeige;
+    border-top: 4px solid $darkBrown;
+    border-radius: 4px;
+    padding: 15px 40px;
+}
+
+.btn__news__posts {
+    font-size: 14px;
+    color: $lightBeige;
+    position: relative;
+
+    &::after {
+        content: url('../../img/decor/triangle.svg');
+        position: absolute;
+        left: 84px;
+    }
+}
+
+.btn__waxom__info {
+    color: #d1d1d1;
+    font-size: 14px;
+    position: relative;
+
+    &::after {
+        content: url('../../img/decor/gray.svg');
+        position: absolute;
+        left: 113%;
+        top: 4%;
+    }
+}

@@ -1,0 +1,23 @@
+.partners {
+    background: url('../../img/background/background.jpg') center top / cover no-repeat;
+    height: 489px;
+}
+
+.partners__list {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: 23px;
+}
+
+.partners__item {
+    margin-top: 16%;
+
+    &:nth-child(2) {
+        margin-top: 12%;
+    }
+
+    &:nth-child(4) {
+        margin-top: 15%;
+    }
+}

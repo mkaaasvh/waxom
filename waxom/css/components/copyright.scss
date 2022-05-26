@@ -1,0 +1,14 @@
+.copyright__content {
+    display: flex;
+    padding-top: 43px;
+}
+
+.copyright__content__items {
+    color: $darkGray;
+    font-size: 13px;
+    margin-left: 7px;
+
+    &--visited {
+        color: #959595;
+    }
+}

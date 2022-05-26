@@ -1,0 +1,31 @@
+.hero {
+    background: url("../../img/background/photo.jpg") center top / cover no-repeat;
+    height: 830px;
+    margin-bottom: 87px;
+}
+
+.hero__title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__title-descup {
+    font-size: 33px;
+    color: #fff;
+}
+
+.hero__main-title {
+    font-size: 49px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.hero__title-descbottom {
+    color: #fff;
+    text-align: center;
+    padding: 7px 23%;
+    margin-bottom:44px;
+}

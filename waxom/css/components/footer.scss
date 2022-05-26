@@ -1,0 +1,35 @@
+footer {
+    height: 111px;
+    background-color: #111111;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__content {
+    display: flex;
+    padding-top: 43px;
+}
+
+.footer__content__items {
+    color: $darkGray;
+    font-size: 13px;
+    margin-right: 9px;
+}
+
+.footer__link {
+    &--visited {
+        color: #959595;
+    }
+
+    &:hover {
+        color: #c7b299;
+    }
+
+    &--active {
+        color: #c7b299;
+    }
+}

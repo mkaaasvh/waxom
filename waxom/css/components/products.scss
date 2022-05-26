@@ -1,0 +1,137 @@
+.products {
+    height: 1100px;
+}
+
+.products__content {
+    padding-left: 26px;
+}
+
+.products__header {
+    padding-bottom: 25px;
+}
+
+.products__title {
+    margin-bottom: 0px;
+}
+
+.products__navigation {
+    margin-bottom: 43px;
+}
+
+.products__navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.products__navigation__item {
+    margin-left: 10px;
+}
+
+.products__navigation__link {
+    font-size: 14px;
+    color: $lightGray;
+    background: transparent;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    padding: 7px 19px;
+
+    &:hover {
+        color: #ffffff;
+        background: $darkBeige;
+        border: 1px solid $darkBeige;
+    }
+
+    &--active {
+        color: #ffffff;
+        background: $darkBeige;
+        border: 1px solid $darkBeige;
+    }
+}
+
+.products__link {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    padding-left: 144px;
+    padding-top: 105px;
+}
+
+.products__link__items {
+    margin-right: 28px;
+}
+
+.products__img {
+    position: relative;
+}
+
+.products__title {
+    font-family: "Raleway";
+    font-weight: 500;
+    font-size: 20px;
+    color: $lightBeige;
+}
+
+.products__desc {
+    font-size: 14px;
+    color: $whiteGray;
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.products__item {
+    width: 370px;
+    min-height: 100px;
+    background: #fbfaf8;
+    margin-right: 20px;
+    margin-bottom: 29px;
+    padding-bottom: 27px;
+    position: relative;
+
+    &--active .products__link{
+        visibility: visible;
+    }
+
+    &--active {
+        background: #362f2d;
+    }
+
+    &--active .products__title {
+        color: #ffffff;
+    }
+
+    &--active .products__desc  {
+        color: #c7b299;
+    }
+
+    &--active .products__img {
+        filter: brightness(30%);
+    }
+
+    &:hover .products__link{
+        visibility: visible;
+    }
+
+    &:hover {
+        background: #362f2d;
+    }
+
+    &:hover .products__title {
+        color: #ffffff;
+    }
+
+    &:hover .products__desc  {
+        color: #c7b299;
+    }
+
+    &:hover .products__img {
+        filter: brightness(30%);
+    }
+}

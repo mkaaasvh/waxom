@@ -1,0 +1,23 @@
+.headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 32px;
+}
+
+.headline__title {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 30px;
+    color: $darkGray;
+    margin-bottom: 10px;
+}
+
+.headline__subtitle {
+    font-size: 16px;
+    color: $lightGray;
+    width: 72%;
+    margin-left: 18px;
+    margin-bottom: 50px;
+}

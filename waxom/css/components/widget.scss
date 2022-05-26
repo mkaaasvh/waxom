@@ -1,0 +1,25 @@
+.widget {
+    margin-top: 20px;
+}
+
+.widget__container {
+    width: 274px;
+}
+
+.widget__title {
+    font-family: "Raleway";
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.widget__gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget__gallery__pictures {
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+

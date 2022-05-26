@@ -1,0 +1,127 @@
+.news__posts {
+    height: 723px;
+    text-align: center;
+    margin-bottom: -45px
+}
+
+.news__posts__title {
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 30px;
+    color: $darkGray;
+    margin-bottom: 12px;
+}
+
+.news__posts__desc {
+    font-size: 16px;
+    color: $lightGray;
+    width: 83%;
+    padding-left: 191px;
+    line-height: 1.8;
+    margin-bottom: 31px;
+}
+
+.news__posts__list {
+    display: flex;
+}
+
+.news__posts__item {
+    margin-right: 20px;
+    min-height: 395px;
+    background-color: #f8f8f8;
+
+    &--active {
+        background-color: #362f2d;
+    }
+
+    &--active .news__posts__num {
+        background-color: $lightBeige;
+    }
+
+    &--active .news__posts__month {
+        background-color: #a48d72;
+    }
+
+    &--active .news__posts__img {
+        filter: brightness(30%);
+    }
+
+    &--active .news__content__title {
+        color: $lightBeige;
+    }
+
+    &--active .news__content__desc {
+        color: #ffffff;
+    }
+
+    &:hover {
+        background-color: #362f2d;
+    }
+
+    &:hover .news__posts__num {
+        background-color: $lightBeige;
+    }
+
+    &:hover .news__posts__month {
+        background-color: #a48d72;
+    }
+
+    &:hover .news__posts__img {
+        filter: brightness(30%);
+    }
+
+    &:hover .news__content__title {
+        color: $lightBeige;
+    }
+
+    &:hover .news__content__desc {
+        color: #ffffff;
+    }
+}
+
+.news__posts__header {
+    margin-bottom: 10px;
+}
+
+.news__posts__date {
+    position: absolute;
+    padding: 20px;
+    color: #fff;
+}
+
+.news__posts__num {
+    background-color: #363636;
+    border-radius: 2px 2px 0px 0px;
+    width: 50px;
+    font-size: 24px;
+}
+
+.news__posts__month {
+    background-color: #252525;
+    border-radius: 0px 0px 2px 2px;
+    width: 50px;
+    font-size: 12px;
+    height: 27px;
+    padding-top: 5px;
+}
+
+.news__posts__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px 30px;
+}
+
+.news__content__title {
+    font-family: "Raleway";
+    font-size: 20px;
+    color: $darkGray;
+    margin-bottom: 11px;
+}
+
+.news__content__desc {
+    font-size: 14px;
+    color: $lightGray;
+    text-align: justify;
+    margin-bottom: 24px;
+}

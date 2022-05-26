@@ -1,0 +1,30 @@
+.separator {
+    background: linear-gradient(to right,#211b19,#4e3427);
+    min-height: 150px;
+    margin-bottom: 69px;
+}
+
+.separator__title {
+    font-family: "Raleway";
+    font-size: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 40px;
+    margin-bottom: -2px;
+}
+
+.separator__desc {
+    color: #615855;
+    font-size: 18px;
+}
+
+.separator__purchase {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: $darkBeige;
+    border-bottom: 4px solid $darkBrown;
+    border-radius: 4px;
+    padding: 15px 21px;
+}
